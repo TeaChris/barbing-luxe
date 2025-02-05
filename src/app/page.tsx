@@ -1,3 +1,9 @@
+import { Nav } from '@/components/nav'
+
 export default function Home() {
-  return <main>page</main>
+  return (
+    <main className="w-screen h-screen">
+      <Nav />
+    </main>
+  )
 }
